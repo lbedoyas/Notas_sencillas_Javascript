@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title> Notas Para un Estudiante Sencillo</title>
+</head>
+
+<body>
+
+    <div class="h1">
+	<h1> Calculo de promedio de notas </h1>
+    </div>
+	<p> Se necesita obtener el promedio simple de un estudiante a partir de sus tres 
+        notas parciales </p>
+
+	<script type="text/javascript">
+		alert("Ingresar las 3 notas correspondientes");
+        var N1,N2,N3,P;
+        N1 = parseInt(prompt("Ingrese la primera nota, por favor"));
+        N2 = parseInt(prompt("Ingrese la segunda nota, por favor"));
+        N3 = parseInt(prompt("Ingrese la tercera nota, por favor"));
+        P=(N1+N2+N3)/3;
+
+        document.write("Su nota final es:  "+ (P));
+        if(P>=3){
+            document.write("  APROBO");
+            
+            }
+            else
+            {
+                document.write("  REPROBO");
+            }
+		
+	</script>
+
+
+</body>
+</html>
